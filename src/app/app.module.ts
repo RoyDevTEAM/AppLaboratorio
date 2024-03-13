@@ -14,6 +14,7 @@ import { DashboardComponent } from './admin/components/dashboard/dashboard.compo
 import { UserManagementComponent } from './admin/components/user-management/user-management.component';
 import { SubjectManagementComponent } from './admin/components/subject-management/subject-management.component';
 import { LaboratoryManagementComponent } from './admin/components/laboratory-management/laboratory-management.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { LaboratoryManagementComponent } from './admin/components/laboratory-man
     LaboratoryManagementComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
