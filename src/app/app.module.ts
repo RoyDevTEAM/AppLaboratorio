@@ -21,7 +21,11 @@ import { UserManagementComponent } from './admin/components/user-management/user
 import { SubjectManagementComponent } from './admin/components/subject-management/subject-management.component';
 import { LaboratoryManagementComponent } from './admin/components/laboratory-management/laboratory-management.component';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { HomeComponent } from './teacher/components/home/home.component';
+=======
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+>>>>>>> d0945690fca2225b0b02e30470655bfcfb8f2fee
 =======
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 >>>>>>> d0945690fca2225b0b02e30470655bfcfb8f2fee
@@ -46,12 +50,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
 <<<<<<< HEAD
+<<<<<<< HEAD
     BrowserAnimationsModule, // Agrega BrowserAnimationsModule aquí
     ReactiveFormsModule,
     MatSnackBarModule, // Agrega MatSnackBarModule aquí
     AppRoutingModule,
     
     AngularFireModule.initializeApp(environment.firebaseConfig)
+=======
+    BrowserAnimationsModule
+>>>>>>> d0945690fca2225b0b02e30470655bfcfb8f2fee
 =======
     BrowserAnimationsModule
 >>>>>>> d0945690fca2225b0b02e30470655bfcfb8f2fee

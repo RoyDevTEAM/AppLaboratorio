@@ -25,9 +25,13 @@
     "@supabase/supabase-js": "^2.39.7",
     "bootstrap": "^5.3.3",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "exceljs": "^4.4.0",
     "firebase": "^10.8.1",
     "pdfmake": "^0.2.10",
+=======
+    "firebase": "^10.8.1",
+>>>>>>> d0945690fca2225b0b02e30470655bfcfb8f2fee
 =======
     "firebase": "^10.8.1",
 >>>>>>> d0945690fca2225b0b02e30470655bfcfb8f2fee
