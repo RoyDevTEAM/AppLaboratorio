@@ -1,0 +1,77 @@
+
+.card {
+    background-color: #001e46; /* Color de fondo oscuro más cercano al color primario */
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Sombra */
+    overflow: hidden; /* Ocultar contenido que se desborde */
+    position: relative;
+}
+
+.card-header {
+    background-color: #001225; /* Color de fondo más oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 20px;
+    text-align: center;
+}
+
+.card-header h3 {
+    margin: 0;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    color: #bddfff; /* Texto gris claro compatible con el color primario */
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #002a5b; /* Fondo de entrada oscuro */
+    border: none;
+    border-radius: 5px;
+    color: #bddfff; /* Texto gris claro */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus {
+    outline: none;
+    background-color: #00387f; /* Fondo de entrada oscuro al enfocar */
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #033E8c; /* Color primario */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff; /* Texto blanco */
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.btn-primary:hover {
+    background-color: #004f99; /* Color primario más claro al pasar el mouse */
+}
+
+.text-center {
+    text-align: center;
+    color: #bddfff; /* Texto gris claro compatible con el color primario */
+}
+
+/* Efecto de rotación 3D al pasar el mouse sobre la tarjeta */
+.card:hover {
+    transform: rotateY(5deg); /* Rotación en el eje Y */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6); /* Sombra más pronunciada al pasar el mouse */
+}

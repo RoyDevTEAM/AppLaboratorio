@@ -1,0 +1,336 @@
+      
+        
+       /* Estilos generales para la sección de testimonios */
+#testimonials {
+  background-color: #f8f9fa; /* Color de fondo */
+  padding: 60px 0; /* Espaciado interno */
+}
+
+/* Estilos para el título de la sección */
+#testimonials .section-title {
+  color: #343a40; /* Color del texto */
+  margin-bottom: 50px; /* Margen inferior */
+}
+
+/* Estilos para cada tarjeta de testimonio */
+.testimonial {
+  background-color: #fff; /* Color de fondo de la tarjeta */
+  padding: 30px; /* Espaciado interno */
+  border-radius: 10px; /* Borde redondeado */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra */
+  transition: box-shadow 0.3s ease; /* Transición suave */
+}
+
+/* Efecto de elevación al pasar el cursor sobre la tarjeta */
+.testimonial:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+}
+
+/* Estilos para el contenido del testimonio */
+.testimonial-content {
+  margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilos para el autor del testimonio */
+.testimonial-author {
+  display: flex; /* Mostrar en línea */
+  align-items: center; /* Alinear verticalmente */
+}
+
+.testimonial-author img {
+  width: 50px; /* Tamaño de la imagen del autor */
+  height: 50px; /* Tamaño de la imagen del autor */
+  border-radius: 50%; /* Borde circular */
+  margin-right: 15px; /* Margen derecho */
+}
+
+.testimonial-author h5 {
+  color: #343a40; /* Color del nombre del autor */
+  margin-bottom: 5px; /* Margen inferior */
+}
+
+.testimonial-author p {
+  color: #6c757d; /* Color del departamento del autor */
+  font-size: 14px; /* Tamaño de fuente */
+  margin: 0; /* Eliminar margen */
+}
+
+/* Estilos para la sección del equipo */
+#team {
+  background-color: #f8f9fa;
+}
+
+.section-title {
+  color: #333;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-img-top img {
+  width: 100%;
+  height: auto;
+  transition: all 0.3s ease;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.card-body {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.card-title {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  color: #666;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 1.2em;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
+
+.social-icons i {
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover i {
+  color: #17a2b8;
+}
+
+.social-icons a:first-child {
+  margin-left: 0;
+}
+
+/* Efectos 3D */
+.card:hover img {
+  transform: scale(1.1) rotate(3deg);
+}
+
+/* Estilos para la sección de Misión, Visión e Historia */
+#mission-vision-history {
+  padding: 80px 0;
+}
+
+.card1 {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+ height: 290px;
+}
+
+.card1:hover {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card1-title {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.card1-text {
+  color: #666;
+  font-size: 1em;
+}
+
+
+
+/* Estilos para la sección Acerca de Nosotros */
+#about {
+  background-color: #f8f9fa; /* Color de fondo */
+  padding: 60px 15px; /* Espaciado interno con márgenes más pequeños en pantallas grandes */
+}
+
+#about .section-title {
+  color: #333; /* Color del título */
+}
+
+#about p {
+  color: #666; /* Color del texto */
+  font-size: 18px; /* Tamaño del texto */
+  line-height: 1.6; /* Altura de línea */
+}
+
+#about img {
+  border-radius: 5px; /* Borde redondeado para la imagen */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Sombra */
+  transition: transform 0.3s ease; /* Transición suave en hover */
+}
+
+/* Estilos para la disposición en pantallas pequeñas */
+@media (max-width: 767.98px) {
+  #about img {
+      margin-top: 30px; /* Espaciado superior para la imagen en pantallas pequeñas */
+  }
+}
+
+/* Estilos para el hover de la imagen */
+#about img:hover {
+  transform: scale(1.05); /* Aumentar el tamaño de la imagen en hover */
+}
+
+
+
+/* Estilos generales */
+
+
+.navbar {
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Línea de separación */
+}
+
+.navbar-brand img {
+  width: auto;
+  max-height: 40px; /* Controlar el tamaño máximo de la imagen del logo */
+  margin-right: 20px; /* Ajuste de margen para el logo */
+}
+
+.navbar-toggler {
+  border: none;
+  background: transparent;
+}
+
+.navbar-toggler-icon {
+  color: #000000; /* Color del icono del botón de alternancia */
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #000000; /* Color del texto del enlace */
+  transition: color 0.3s ease; /* Transición de color suave */
+  display: flex;
+  align-items: center; /* Alinear ícono verticalmente */
+  position: relative; /* Para el efecto de desplazamiento de fondo */
+}
+
+.navbar-nav .nav-item .nav-link i {
+  margin-right: 5px; /* Espaciado entre el ícono y el texto */
+}
+
+/* Efecto de desplazamiento de fondo en el hover */
+.navbar-nav .nav-item .nav-link::before {
+  content: "";
+  position: absolute;
+ 
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #17a2b8; /* Color del efecto de fondo */
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item .nav-link:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #17a2b8; /* Color del texto del enlace en hover */
+}
+
+.hero {
+  height: 100vh; /* Abarca toda la altura de la pantalla */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000; /* Color del texto negro */
+  text-align: center;
+  padding: 0 20px;
+}
+
+
+
+.social-icons a {
+  color: #000000; /* Color del icono negro */
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #17a2b8; /* Color celeste en hover */
+}
+
+/* Estilos del botón de login */
+.navbar-nav .nav-item .login-link {
+  color: #000000; /* Color del texto */
+  transition: color 0.3s ease; /* Transición suave */
+}
+
+.navbar-nav .nav-item .login-link:hover {
+  color: #17a2b8; /* Celeste */
+}
+/* Estilos generales del footer */
+.footer {
+  background-color: #343a40; /* Fondo oscuro */
+  color: #fff; /* Texto blanco */
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+
+.social-icons a:hover {
+  color: #17a2b8; /* Color de resalte al pasar el cursor */
+}
+
+/* Estilos para el texto de derechos de autor */
+.footer p {
+  margin-bottom: 0; /* Eliminar el margen inferior para que esté más cerca del borde */
+}
+
+/* Estilos para el separador horizontal */
+.footer hr {
+  border-top-color: rgba(255, 255, 255, 0.1); /* Color del separador */
+}
+
+/* Estilos específicos para dispositivos medianos y grandes */
+@media (min-width: 768px) {
+  .footer h5 {
+      font-size: 1.2em; /* Tamaño del título */
+      margin-bottom: 20px; /* Espacio inferior */
+  }
+}
