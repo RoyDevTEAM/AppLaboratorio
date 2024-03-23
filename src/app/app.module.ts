@@ -20,7 +20,11 @@ import { DashboardComponent } from './admin/components/dashboard/dashboard.compo
 import { UserManagementComponent } from './admin/components/user-management/user-management.component';
 import { SubjectManagementComponent } from './admin/components/subject-management/subject-management.component';
 import { LaboratoryManagementComponent } from './admin/components/laboratory-management/laboratory-management.component';
+<<<<<<< HEAD
 import { HomeComponent } from './teacher/components/home/home.component';
+=======
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+>>>>>>> d0945690fca2225b0b02e30470655bfcfb8f2fee
 
 @NgModule({
   declarations: [
@@ -41,12 +45,16 @@ import { HomeComponent } from './teacher/components/home/home.component';
   ],
   imports: [
     BrowserModule,
+<<<<<<< HEAD
     BrowserAnimationsModule, // Agrega BrowserAnimationsModule aquí
     ReactiveFormsModule,
     MatSnackBarModule, // Agrega MatSnackBarModule aquí
     AppRoutingModule,
     
     AngularFireModule.initializeApp(environment.firebaseConfig)
+=======
+    BrowserAnimationsModule
+>>>>>>> d0945690fca2225b0b02e30470655bfcfb8f2fee
   ],
   providers: [],
   bootstrap: [AppComponent]
